@@ -132,42 +132,13 @@ section p {
     text-align: justify;
 }
 
-/* Language section */
-.language .language-list {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.language .language-list p {
-    padding-right: 10px;
-    margin-right: 5px;
-    border-radius: 5px;
-}
-
-/* Interest section */
-.interest .interest-list {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.interest .interest-list p {
-    padding-right: 10px;
-    margin-right: 5px;
-    border-radius: 5px;
-}
-
 /* Skills section */
-.skills .skill-list {
-    display: flex;
-    flex-wrap: wrap;
+li.skill-cat {
+    font-weight: bold;
 }
 
-.skills .skill-list p {
-    background: #444;
-    color: #fff;
-    padding: 5px 10px;
-    margin: 5px 5px 5px 0;
-    border-radius: 5px;
+.skill-list p {
+    margin-bottom: 1pt;
 }
 
 /* Resume footer styles */
