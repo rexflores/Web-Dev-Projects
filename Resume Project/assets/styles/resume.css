@@ -1,0 +1,253 @@
+/* reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* container styling */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* header styling */
+.profileText {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profileText h1 {
+    font-size: 2.5em;
+    color: #333;
+    border-bottom: 2px solid #2c2c2c;
+}
+
+.profileText ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.profileText ul li {
+    display: flex;
+    align-items: center;
+}
+
+.profileText ul li a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.profileText ul li a:hover {
+    color: #348d47;
+}
+
+.profileText .icon {
+    color: #348d47;
+}
+
+.profileText p {
+    width: 100%;
+    margin: 10px auto;
+    text-align: justify;
+}
+
+/* section styling */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #333;
+    border-bottom: 2px solid #348d47;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* education section styling */
+.education .educ {
+    margin: 15px 0;
+}
+
+.educ .school {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.educ .course, .educ .educLevel, .educ .year, .educ .edu-loc {
+    margin-left: 10px;
+    color: #666;
+}
+
+/* work experience section styling */
+.work-experience .experience {
+    margin: 15px 0;
+}
+
+.position-company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.com, .compos {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.compos {
+    text-align: end;
+}
+
+.year-description {
+    margin-left: 10px;
+    color: #666;
+}
+
+.year-description ul {
+    list-style: none;
+    margin: 5px 0;
+}
+
+.year-description ul li {
+    padding-left: 15px;
+    position: relative;
+    text-align: justify;
+}
+
+.year-description ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #07250e;
+}
+
+/* projects section styling */
+.projects .project-list {
+    margin: 15px 0;
+}
+
+.projtitle {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.projyear, .projdes {
+    margin-left: 10px;
+    color: #666;
+}
+
+.projdes {
+    list-style: none;
+    margin: 5px 0;
+    margin-left: 10px;
+}
+
+.projdes li {
+    padding-left: 15px;
+    position: relative;
+    text-align: justify;
+}
+
+.projdes li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #07250e;
+}
+
+/* awards section styling */
+.awards .awards-list {
+    margin: 15px 0;
+}
+
+.award-title {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.award-presenter, .award-date, .award-description {
+    margin-left: 10px;
+    color: #666;
+}
+
+.award-description {
+    margin: 5px 0;
+    padding-left: 15px;
+    position: relative;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.award-description::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #07250e;
+}
+
+/* skills section styling */
+.skills .skill-list {
+    margin: 15px 0;
+}
+
+.skills ul {
+    list-style: none;
+    margin: 5px 0;
+}
+
+.skill-cat {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.skill-cat + p {
+    margin-left: 15px;
+    color: #666;
+}
+
+/* footer styling */
+.resume-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.resume-footer button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.resume-footer button:hover {
+    background-color: #0056b3;
+}
