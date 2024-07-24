@@ -40,16 +40,17 @@ footer{
     bottom: 0;
 }
 
-.fa-brands, .fa-solid{
+.fa-brands {
     color: #fff;
     font-size: 25px;
     /* top - right - bottom - left */
     margin: 0 15px;
 }
 
-.fa-brands:hover, .fa-solid:hover{
+.fa-brands:hover {
     color: #696969;
     transform: scale(1.3);
+    transition: transform 0.3s ease-in-out;
 }
 
 #landing {
