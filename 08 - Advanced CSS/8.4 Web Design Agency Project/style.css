@@ -6,6 +6,7 @@ body {
   flex-direction: column;
   min-height: 95vh;
 }
+
 .main {
   flex: 1;
 }
@@ -19,3 +20,68 @@ footer {
   color: midnightblue;
 }
 
+.tile-image {
+  float: left;
+  width: 250px;
+  margin-right: 30px;
+}
+
+p {
+  font-size: 10pt;
+}
+
+.creative {
+  color: midnightblue;
+}
+
+.card {
+  width: 48%;
+}
+
+.card > .card-title, p {
+  text-wrap: wrap;
+  margin: 10px 0;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+@media (max-width: 1040px) {
+  .tile-image {
+    width: 100%;
+  }
+
+  .card p {
+    text-align: justify ;
+  }
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
